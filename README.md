@@ -17,12 +17,6 @@ npm i react-native-cn-richtext-editor
 ```
 yarn add react-native-cn-richtext-editor
 ```
-
-### Pre-Release
-
-Please check out our new `CNEditor` editor designed with `react-native-webview` in pre-relase version [2.0.0-rc1](https://github.com/imnapo/react-native-cn-richtext-editor/releases/tag/2.0.0-rc1). You may install it using `npm i react-native-cn-richtext-editor@next`.
-For more information about how to use this pre-release you may read [README](https://github.com/imnapo/react-native-cn-richtext-editor/blob/next/README.md#installation) and check [expo-demo](https://github.com/imnapo/react-native-cn-richtext-editor/blob/next/expo-demo/App.js) project in the `next` branch.
-
 ### Usage
 
 Here is a simple overview of our components usage.
@@ -259,7 +253,6 @@ Also be noticed that this example is writen with expo and required 'react-native
 | onFocus    | Callback that is called when one of text inputs are focused. | No |
 | onBlur    | Callback that is called when one of text inputs are blurred. | No |
 | placeholder    | The string that will be rendered before text input has been entered. | No |
-| textInputProps   | An object containing additional props to be passed to the TextInput component| No |
 
 #### Instance methods
 

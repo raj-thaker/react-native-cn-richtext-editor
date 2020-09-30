@@ -1,12 +1,52 @@
 {
-  "name": "react-native-cn-richtext-editor",
-  "version": "1.0.42",
-  "description": "RichText Editor for React-Native",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src"
+  "_args": [
+    [
+      "react-native-cn-richtext-editor@1.0.42",
+      "/Volumes/Data/Krunal Badami/react native/flickpost_new"
+    ]
+  ],
+  "_from": "react-native-cn-richtext-editor@1.0.42",
+  "_id": "react-native-cn-richtext-editor@1.0.42",
+  "_inBundle": false,
+  "_integrity": "sha512-BUYoL6HKBQCbeoksWUy0A7w7iqbwxXXWc7J0fKmou49Juz3tXeLNnS8PGsJZubihFeaSy0Q2+uIskJxVfIIQXQ==",
+  "_location": "/react-native-cn-richtext-editor",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-cn-richtext-editor@1.0.42",
+    "name": "react-native-cn-richtext-editor",
+    "escapedName": "react-native-cn-richtext-editor",
+    "rawSpec": "1.0.42",
+    "saveSpec": null,
+    "fetchSpec": "1.0.42"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-cn-richtext-editor/-/react-native-cn-richtext-editor-1.0.42.tgz",
+  "_spec": "1.0.42",
+  "_where": "/Volumes/Data/Krunal Badami/react native/flickpost_new",
+  "author": {
+    "name": "Narbe HS",
+    "email": "imnapo@gmail.com",
+    "url": "http://learncode.net"
+  },
+  "bugs": {
+    "url": "https://github.com/imnapo/react-native-cn-richtext-editor/issues"
+  },
+  "contributors": [
+    {
+      "name": "Christ Kho",
+      "email": "christ.khodabakhshi@gmail.com",
+      "url": "http://learncode.net"
+    },
+    {
+      "name": "Narbe HS",
+      "email": "imnapo@gmail.com",
+      "url": "http://learncode.net"
+    }
+  ],
   "dependencies": {
     "diff-match-patch": "^1.0.4",
     "immutability-helper": "^2.8.1",
@@ -14,30 +54,7 @@
     "shortid": "^2.2.14",
     "xmldom": "^0.1.27"
   },
-  "peerDependencies": {
-    "react": "^16.6.1",
-    "react-native": "^0.57.5"
-  },
-  "keywords": [
-    "react",
-    "react-native",
-    "rich-text",
-    "editor"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imnapo/react-native-cn-richtext-editor.git"
-  },
-  "contributors": [
-    "Christ Kho <christ.khodabakhshi@gmail.com> (http://learncode.net)",
-    "Narbe HS <imnapo@gmail.com> (http://learncode.net)"
-  ],
-  "author": "Narbe HS <imnapo@gmail.com> (http://learncode.net)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/imnapo/react-native-cn-richtext-editor/issues"
-  },
-  "homepage": "https://github.com/imnapo/react-native-cn-richtext-editor#readme",
+  "description": "RichText Editor for React-Native",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.0",
@@ -48,5 +65,28 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4"
-  }
+  },
+  "homepage": "https://github.com/imnapo/react-native-cn-richtext-editor#readme",
+  "keywords": [
+    "react",
+    "react-native",
+    "rich-text",
+    "editor"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-cn-richtext-editor",
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-native": "^0.57.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imnapo/react-native-cn-richtext-editor.git"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.42"
 }

@@ -358,7 +358,7 @@ class CNRichTextEditor extends Component {
 
         this.contentHeights = update(this.contentHeights, { $splice: [[index, removeCout]] });
 
-        this.focusOnNextUpdate = Math.max(0, index - 1);
+        this.focusOnNextUpdate = index - 1;
         this.selectionOnFocus = { start: selectionStart, end: selectionStart };
 
         if (this.props.onValueChanged) this.props.onValueChanged(newConents);
@@ -426,8 +426,7 @@ class CNRichTextEditor extends Component {
             returnKeyType={this.props.returnKeyType}
             foreColor={this.props.foreColor}
             styleList={styles}
-            placeholder={index === 0 ? this.props.placeholder : undefined}
-            textInputProps={this.props.textInputProps}
+			      placeholder={index === 0 ? this.props.placeholder : undefined}
             style={[{
               flexGrow: 1,
             }, this.props.textInputStyle]

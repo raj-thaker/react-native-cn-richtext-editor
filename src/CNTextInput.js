@@ -1306,7 +1306,7 @@ class CNTextInput extends Component {
 
     render() {
       const {
-        items, foreColor, style, returnKeyType, styleList, textInputProps
+        items, foreColor, style, returnKeyType, styleList
       } = this.props;
       const { selection } = this.state;
       const color = foreColor || '#000';
@@ -1314,7 +1314,6 @@ class CNTextInput extends Component {
       
       return (
         <TextInput
-          {...textInputProps}
           underlineColorAndroid="rgba(0,0,0,0)"
           onSelectionChange={this.onSelectionChange}
           multiline
@@ -1333,11 +1332,11 @@ class CNTextInput extends Component {
           ref={component => this.textInput = component}
           onChangeText={this.handleChangeText}
           onKeyPress={this.handleKeyDown}
-          selection={selection}
+          // selection={selection}
           onFocus={this.onFocus}
           onBlur={this.onBlur}
           onContentSizeChange={this.handleContentSizeChange}
-          placeholder={this.props.placeholder}
+		      placeholder={this.props.placeholder}
         >
           {
               _.map(items, item => (
